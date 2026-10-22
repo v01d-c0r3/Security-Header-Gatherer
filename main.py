@@ -12,7 +12,7 @@ SECURITY_HEADERS = [
     "Cross-Origin-Resource-Policy",
     ]
 
-website = input("please enter URL of website")
+website = input("please enter URL of website: ")
 
 response = requests.get(website, timeout=10)
 
